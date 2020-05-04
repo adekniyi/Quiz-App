@@ -1,0 +1,85 @@
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+.firstPair{
+    display: flex;
+}
+.firstQuestion{
+    margin-right: 7%;
+    width: 100%;
+}
+.secondQuestion{
+    margin-right: 7%;
+    width: 100%;
+}
+input{
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.btn{
+    margin: 0 auto;
+    width: 40%;
+}
+button{
+    margin: 0 auto;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+input:hover{
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.won{
+    background-color: green;
+}
+.fail{
+    background-color: red;
+}
+
+/* responsiveness */
+@media screen and (max-width:960px) {
+    input{
+        width: 70%;
+    }
+    .btn{
+        margin: 0 auto;
+        width: 50%;
+    }
+    button{
+        margin: 0 auto;
+        width: 70%;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:480px) {
+    .firstPair{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 100%;
+    }
+    .btn{
+        margin: 0 auto;
+        width: 50%;
+    }
+    button{
+        margin: 0 auto;
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        cursor: pointer;
+    }
+}
