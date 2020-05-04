@@ -39,9 +39,11 @@ input:hover{
 }
 .won{
     background-color: green;
+    color: white;
 }
 .fail{
     background-color: red;
+    color: white;
 }
 
 /* responsiveness */
